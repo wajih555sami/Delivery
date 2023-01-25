@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="339.937" height="88.75" viewBox="0 0 339.937 88.75">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 54.2927px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #9f0029;
+      }
+
+      .cls-2 {
+        font-family: "Poppins-ExtraBold";
+        font-weight: bold;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g>
+    <text transform="matrix(0.9066, 0, 0, 0.9045, 91.937, 61.375)" class="cls-1"><tspan class="cls-2">DELIVERY</tspan></text>
+    <path d="M44.516,70.958 C43.870,71.272 43.219,71.562 42.563,71.828 L41.462,55.299 L49.712,58.378 L46.924,16.536 C51.894,19.521 56.085,23.933 58.810,29.538 C66.291,44.926 59.891,63.471 44.516,70.958 ZM38.526,88.748 L18.757,41.320 L27.007,44.399 L15.355,0.002 L41.303,9.686 L44.040,50.757 L35.789,47.677 L38.526,88.748 ZM9.428,32.335 L26.706,73.786 C16.840,72.404 7.817,66.291 3.131,56.651 C-3.848,42.294 1.255,25.192 14.458,16.883 L19.500,36.093 L9.428,32.335 Z" class="cls-3"/>
+  </g>
+</svg>
