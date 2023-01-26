@@ -1,16 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 
 import logo from "../assets/img/logo-complete.svg";
 import search from "../assets/img/search.png";
 
 const Navbar = () => {
+  const [nav, setNav] = useState(false);
+
+  const handleShowMenu = () => {
+    setNav(!nav);
+  };
+
   return (
     <nav className="main-nav">
       <div className="container container-w">
-        <a href="#home_sec" className="logo">
-          <img src={logo} alt="logo" className="img-fluid" />
-        </a>
-        <div className="collapse">
+        <div className="logo-and-btn">
+          <a href="#home_sec" className="logo">
+            <img src={logo} alt="logo" className="img-fluid" />
+          </a>
+          <button
+            className="collapsed-btn"
+            type="button"
+            onClick={handleShowMenu}
+          >
+            X
+          </button>
+        </div>
+        <div className={nav ? "active collapse" : "collapse"}>
           <ul>
             <li>
               <a href="#" className="link active">

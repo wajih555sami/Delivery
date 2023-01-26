@@ -87,6 +87,28 @@ a, a:hover{
     }
 }
 
+.collapsed-btn{
+    color: $mainColor;
+    border: 1px solid $mainColor;
+    padding: 5px 10px;
+    background-color: transparent;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    @media (max-width: 992px) {
+        display: inline-flex;
+    }
+}
+
+.logo-and-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 991px){
+        width: 90%;
+    }
+}
 
 @import './assets/css/sass/sections/_header.scss';
 

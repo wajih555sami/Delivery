@@ -37,9 +37,15 @@
             .collapse{
                 transition: .3s;
                 display: flex;
+                &.active{
+                    display: flex;
+                    flex-direction: column;
+                    transform: translateY(0%);
+                }
                 @media (max-width: 991px) {
                     overflow: hidden;
                     display: none;
+                    transform: translateY(100%);
                 }
             }
             ul{
@@ -87,6 +93,9 @@
         display: flex;
         align-items: center;
         height: 25px;
+        @media (max-width: 991px) {
+            margin-left: 0;
+        }
         img{
             object-fit: contain;
             height: 100%;
